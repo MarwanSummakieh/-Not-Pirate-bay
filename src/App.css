@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+span{
+    size: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#ms-button{
+    text-align: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#si-ms{
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-top: 100%;
+    width: 50%;
+    z-index: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#authenticationButton{
+    background-image: url(./azure/ms-symbollockup_signin_light.svg);
+    border: none;
+    width: 18vw;
+    height: 3vw;
+    background-position:relative;
+    background-color: transparent;
+    text-align: right;
+    background-size: fill;
 }
+#authenticationButtonOut{
+    background-image: url(azure/6388820.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 3vw;
+    height: 3vw;
+    background-size:contain;
+    background-color: rgb(212, 158, 158);
+    text-align: right;
+    border-radius: 35%;
+    z-index: 99999;
+    
+}  
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    background-color: #925656;
 }
